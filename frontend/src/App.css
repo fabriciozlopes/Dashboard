@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+body, input, button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #808ca7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.App h1 {
+  margin: 20px 0;
+}
+
+.App ul {
+  list-style: none;
+  margin-top: 50px;
+}
+
+.App ul li img {
+  max-width: 100%;
+  border-radius: 5px 0 0 5px;
+}
+
+.App ul li {
+  width: 750px;
+  height: 250px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.App ul li footer{
+  flex: 1;
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 15px 20px;
+  text-align: left;
+  border-radius: 0 5px 5px 0;
+  color: black;
+}
+
+.App ul li footer strong{
+  font-size: 18px;
+  color: #333;
+}
+
+.App ul li footer p{
+  font-size: 16px;
+  line-height: 25px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.App .buttons {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 245px 245px 120px 120px;
+  grid-gap: 10px;
+}
+
+.App .buttons button{
+  height: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.App .buttons2 {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 245px 245px;
+  grid-gap: 10px;
+}
+
+.App .buttons2 button{
+  height: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.App .buttons3 {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 750px;
+}
+
+.App .buttons3 button{
+  height: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 0;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
